@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portafolio de Matilde Flores - Strategic Design" />
+    <title>Matilde Flores - Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <meta name="theme-color" content="#f7efe5" />
+    <style>
+      body {
+        background-color: #fdfaf6;
+        color: #3e3e3e;
+      }
+
+      .navbar {
+        background-color: #f3e9dc !important;
+      }
+
+      .btn-primary {
+        background-color: #d7bfae;
+        border: none;
+      }
+
+      .btn-primary:hover {
+        background-color: #c8ad97;
+      }
+
+      .card {
+        border: none;
+        background-color: #fffdf9;
+      }
+
+      .card-img-top {
+        height: 300px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+      }
+
+      footer {
+        background-color: #f3e9dc;
+      }
+
+      .rating-badge {
+        background: #f1c27d;
+        color: #3e3e3e;
+        font-weight: bold;
+        padding: 0.25rem 0.5rem;
+        border-radius: 0.25rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="collapse" id="navbarHeader">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-sm-8 col-md-7">
+              <h4>Sobre mí</h4>
+              <p>
+                Soy <strong>Matilde Flores</strong>, estudiante de Diseño en la
+                Pontificia Universidad Católica de Chile. Mi enfoque se centra
+                en el <em>Diseño Editorial</em> y la creación de experiencias
+                con sentido humano, ético y social.
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1">
+              <h4>Contacto</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://www.linkedin.com/in/matilde-flores-villarroel-8440b5348/" class="text-dark">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/matildeflv/?hl=es-la" class="text-dark">Instagram</a></li>
+                <li><a href="mailto:matilde.flores@uc.cl" class="text-dark">Email</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar navbar-light shadow-sm">
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="me-2"
+              viewBox="0 0 24 24"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l2.87 5.06"></path>
+            </svg>
+            <strong>Matilde Flores</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarHeader"
+            aria-controls="navbarHeader"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Matilde Flores</h1>
+            <p class="lead">
+              Explora algunos de mis proyectos más significativos en diseño, experimentación y arte.
+              
+            </p>
+            <p>
+              <a href="mailto:matilde.flores@uc.cl" class="btn btn-primary my-2"
+                >Hablemos</a
+              >
+              <a href="#" class="btn btn-outline-secondary my-2">☆</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="album py-5">
+        <div class="container">
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"
+            id="porotito"
+          ></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+      <p class="mb-1">&copy; Diseño UC</p>
+      <p class="mb-0">
+        © 2025 Matilde Flores – Portafolio académico 
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const trabajos = [
+        {
+          title: "Azanita",
+          category: "Product Design",
+          photo: "azanita.jpeg",
+          description: "Colaboración con CascaraFoods para su producto AzanaKids.",
+          rating: "4/5"
+        },
+        {
+          title: "BOOK",
+          category: "Editorial Design",
+          photo: "casibook.jpg",
+          description: "Resumen de mis proyectos2025 en forma de revista.*aun no hago el mockup de esto asi que aun sin foto*",
+          rating: "3/5"
+        },
+        {
+          title: "Crick-Crack",
+          category: "Strategic Design",
+          photo: "dragon.jpeg",
+          description: "Colaboración con La Papelaría. Juguete para niños con problemas de movilidad fina. *tengo que buscar otra imagen aun*",
+          rating: "5/5"
+        }
+      ];
+
+      const portafolio = document.querySelector("#porotito");
+
+      trabajos.forEach((v) => {
+        portafolio.innerHTML += `
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <img src="${v.photo}" class="card-img-top" alt="${v.title}">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">${v.title}</h5>
+                <p class="card-text flex-grow-1">${v.description}</p>
+                <div class="d-flex justify-content-between align-items-center mt-auto">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">${v.category}</button>
+                  </div>
+                  <span class="rating-badge">${v.rating}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+    </script>
+  </body>
+</html>
